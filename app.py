@@ -57,7 +57,7 @@ def main():
         for i in range(7):
             st.header(f"Image {i + 1}")
             # Load and display the image
-            image_path = f"/content/eyechart_images/image_{i + 1}.png"  # replace with the actual path
+            image_path = f"eyechart_images/image_{i + 1}.png"  # replace with the actual path
             st.image(image_path, caption=f"Image {i + 1}")
 
             # Collect user response
