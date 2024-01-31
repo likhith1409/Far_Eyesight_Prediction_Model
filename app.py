@@ -50,7 +50,7 @@ def main():
     if page == "Home":
         st.title("Far Eyesight Prediction Model")
         st.header("Important Note:")
-        st.markdown("It is crucial to maintain a distance of 6 meters from the screen while evaluating your eyesight.")
+        st.markdown("It is crucial to maintain a distance  from the screen while evaluating your eyesight.")
 
         user_responses = []
 
