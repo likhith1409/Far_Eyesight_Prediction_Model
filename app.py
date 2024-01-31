@@ -94,7 +94,7 @@ def main():
         st.markdown("It is recommended to consult an eye care professional for accurate assessment and advice.")
 
         st.header("Reference Eye Chart:")
-        eye_chart_path = "/content/eyechart.png"  # replace with the actual path
+        eye_chart_path = "eyechart.png"  # replace with the actual path
         st.image(eye_chart_path, caption="Reference Eye Chart", use_column_width=True)
 
 if __name__ == "__main__":
